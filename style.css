@@ -22,6 +22,14 @@ body {
   text-align: center;
 }
 
+.chatMessages {
+  height: 85vh;
+  overflow: scroll;
+  margin: 20px;
+  background-color: rgba(128, 128, 128, .2);
+
+}
+
 .text-box {
   margin: 0px auto;
   width: 40%;
@@ -31,4 +39,14 @@ p{
   text-align: center;
   margin: 3px 0;
   font-size: 17px;
+}
+
+.chat {
+
+}
+
+.badge {
+  text-transform: lowercase;
+  color: white;
+  background-color: #3498db;
 }
